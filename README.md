@@ -44,4 +44,11 @@ You are encouraged to:
 - Implement or improve other components  
 - Contribute new ideas for monocular 3D visual grounding  
 
-
+## ⚙️ 环境配置（requirements）
+python>=3.9 (our python=3.12.3)
+-安装依赖
+-'pip install -r requirement.txt'
+torch>=2.0.0
+sentence-transformers>=2.2.2
+numpy>=1.24.0
+tqdm>=4.65.0
