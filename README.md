@@ -85,6 +85,10 @@ The repository is organized as follows:
 │
 ├── 📦 feature_stats.pth     # [Checkpoints] Training data statistics (Mean/Std)
 ├── 📦 text_encoder.pth      # [Checkpoints] Trained Text Encoder weights
+├── 📦 text_encoder_avg.pth  # [inference]
+├── 📦 text_encoder_max.pth  # [inference]
+├── 📦 object_vae_avg.pth    # [inference]
+├── 📦 object_vae_max.pth    # [inference]
 └── 📦 object_vae.pth        # [Checkpoints] Trained Object VAE weights
 ````
 
