@@ -27,7 +27,7 @@
 ## 📢 News
 * **[2025-02]** 🎉 Our paper has been accepted by **CVPR 2025**!
 * **[2025-02]** We have released the code and pretrained weights for the **VLMOD Challenge (Track B)**.
-* **[Repo]** Official Repository: [Primarypsb/prs-](https://github.com/Primarypsb/prs-)
+
 
 ---
 
@@ -89,7 +89,7 @@ The repository is organized as follows:
 ````
 
 -----
-
+* **[Repo]** Repository: [Primarypsb/prs-](https://github.com/Primarypsb/prs-)
 ## ⚙️ Installation & Setup
 
 ### 1\. Environment Requirements
