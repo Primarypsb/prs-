@@ -26,10 +26,10 @@
 ## 📢 News
 * **[2025-02]** 🎉 Our paper has been accepted by **CVPR 2025**!
 * **[2025-02]** We have released the code and pretrained weights for the **VLMOD Challenge (Track B)**.
-* **[Repo]** Official Repository: [Primarypsb/prs-](https://github.com/Primarypsb/prs-)
+
 
 ---
-
+our Repository: [Primarypsb/prs-](https://github.com/Primarypsb/prs-)
 ## 📝 Introduction
 
 This repository contains the official implementation for **VLMOD** (Track B), focusing on **Multi-Object 3D Visual Grounding (3DVG)** based on a **single monocular RGB image**.
@@ -85,8 +85,8 @@ The repository is organized as follows:
 ├── 📦 feature_stats.pth     # [Checkpoints] Training data statistics (Mean/Std)
 ├── 📦 text_encoder.pth      # [Checkpoints] Trained Text Encoder weights
 └── 📦 object_vae.pth        # [Checkpoints] Trained Object VAE weights
-
-##⚙️ Installation & Setup
+```
+## ⚙️ Installation & Setup
 1. Environment Requirements
 We recommend using Python >= 3.9 (Developed with Python 3.12.3) and PyTorch >= 2.0.0
 # Clone the repository
@@ -99,7 +99,7 @@ pip install -r requirements.txt
 You need to download the pretrained weights and place them in the correct directories.
 [Model / File	Description	Download Link
 Full Checkpoints	Includes object_vae.pth, text_encoder.pth, etc.	[suspicious link removed] (Code: 1818)](https://pan.baidu.com/s/1LDGQdmlkgdxQL6_x55wDCw?pwd=1818 提取码: 1818)
-🚀 Usage
+## 🚀 Usage
 1. Data Preparation
 Ensure your dataset JSON files are correctly placed:
 
@@ -115,7 +115,7 @@ Note: This script will automatically generate feature_stats.pth and save the bes
 To run inference on the test set or perform model ensemble:
 python run_inference.py
 The prediction results will be saved in the result/ directory.
-##🤝 Contribution
+## 🤝 Contribution
 We encourage the community to:
 
 Reproduce and verify the released modules.
@@ -123,9 +123,9 @@ Reproduce and verify the released modules.
 Implement or improve other components.
 
 Contribute new ideas for monocular 3D visual grounding.
-##📜 License
+## 📜 License
 This project is released under the Apache 2.0 License and is intended for academic and research purposes only.
-##🏷️ Citation
+## 🏷️ Citation
 If you find this work helpful, please cite our paper:
 @inproceedings{guo2025beyond,
   title={Beyond Human Perception: Understanding Multi-Object World from Monocular View},
