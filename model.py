@@ -49,5 +49,5 @@ class ObjectVAE(nn.Module):
         mu, logvar = self.encode(x)
         z = reparameterize(mu, logvar)
         reconstruction = self.decode(z)
-        # 只返回 3 个值 (兼容旧代码)
+        # 只返回 3 个值
         return reconstruction, mu, logvar
